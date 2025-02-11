@@ -19,11 +19,13 @@ This is a custom Fedora-based developer Toolbox container with essential tools p
 
 2. Run chmod +x setup.sh && ./setup.sh
 
-(or)
+   (or)
+  
+   Run Manually
 
-3. Run Manually
+   i. podman build -t my-dev-toolbox .
 
-i. podman build -t my-dev-toolbox .
-ii. toolbox create --image localhost/my-dev-toolbox --container my-dev
-iii. toolbox enter my-dev
+   ii. toolbox create --image localhost/my-dev-toolbox --container my-dev
+
+   iii. toolbox enter my-dev
 
